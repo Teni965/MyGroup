@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки группы</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+      <button class="icon-btn" id="quizBtn"> Викторина</button>
+      <button class="icon-btn" id="themeBtn" aria-label="Сменить тему">🌙</button>
+    </div>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/Aiperi.png" alt=""></div>
+            <h2>Кенешбекова Айпери</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/nuraym.png" alt=""></div>
+            <h2>Касымбекова Нурайым</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/ainazic.png" alt=""></div>
+            <h2>Кутбидинова Айназик</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/iliaz.png" alt=""></div>
+            <h2>Мажитов Илияз</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/Aiganysh.png" alt=""></div>
+            <h2>Маматова Айганыш</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/acema.png" alt=""></div>
+            <h2>Мырзабекова Асема</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/tunguyuc.png" alt=""></div>
+            <h2>Наватов Нуртилек</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/hanif.png" alt=""></div>
+            <h2>Сализов Ханиф</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/saule.png" alt=""></div>
+            <h2>Самакова Сауле</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/shapka.png" alt=""></div>
+            <h2>Самыйбеков Шабдан</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/adelina.png" alt=""></div>
+            <h2>Талантбекова Аделина</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/nazic.png" alt=""></div>
+            <h2>Тердикбаева Назик</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/adahan.png" alt=""></div>
+            <h2>Токтомушов Адахан</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/Amir.png" alt=""></div>
+            <h2>Туншансин Амир</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/teni.png" alt=""></div>
+            <h2>Тургунбеков Тенирберди</h2>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-content">
+            <div class="avatar-placeholder"><img src="img/nurel.png" alt=""></div>
+            <h2>Шабидинов Нурэл</h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="under">
+      <div id="counter" class="counter"></div>
+      <small>Нажми на карточку, чтобы перевернуть</small>
+    </div>
+
+    <button class="random-btn" id="randomBtn">🎲 Случайный человек</button>
+
+    <!-- Викторина -->
+    <div class="quiz" id="quiz">
+      <div class="quiz-window">
+        <button class="quiz-close" id="quizClose" aria-label="Закрыть">×</button>
+        <div id="quizBody"></div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
